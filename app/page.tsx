@@ -10,7 +10,7 @@ export default function Page() {
       </div> */}
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row ">
         {/* Child */}
-        <div className="flex flex-col basis-4/12  justify-start p-6 md:w-3/5 md:px-12 md:py-12 rounded ">
+        <div className="flex flex-col basis-4/12  justify-start  md:w-3/5 md:px-12 md:py-4 rounded ">
           {/* Inside left column */}
           <div className="flex flex-col mb-6  rounded-lg border-2 shadow-2xl">
             <div className="flex flex-col lg:flex-row">
@@ -98,11 +98,11 @@ export default function Page() {
 
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center p-6 md:w-3/5 md:px-8 md:py-12">
+        <div className="flex flex-col items-center justify-center md:w-3/5 md:px-8 md:py-12">
           {/* Inside Right column */}
           {/* About */}
-          <div className="flex w-full py-6 border-b-2">
-            <div className="flex flex-col w-full grow py-4 ">
+          <div className="flex w-full border-b-2">
+            <div className="flex flex-col w-full grow  ">
               <div className="flex flex-row w-full mb-8 text-2xl font-semibold font-mono	text-gray-800 dark:text-gray-800 ">
                 About Mango
               </div>
@@ -140,7 +140,7 @@ export default function Page() {
               </div>
               <div className="flex flex-row">
 
-                <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 lg:grid-cols-2 xl:grid-cols-3  2xl:grid-cols-4 xl:gap-x-8">
+                <div className="mt-6 grid grid-cols-1 grow gap-x-6 gap-y-10 lg:grid-cols-2 xl:grid-cols-3  2xl:grid-cols-4 xl:gap-x-8">
                   <div className="group relative">
                     <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                       <Image src="/sea.jpg" alt="Front of men&#039;s Basic Tee in black." height="400" width="200" className="h-full w-full object-cover object-center lg:h-full lg:w-full" />
@@ -259,7 +259,7 @@ export default function Page() {
                   </figure>
                 </div>
                 <div className="flex grow mx-auto  py-4 max-w-2xl lg:max-w-4xl border-2 rounded-md">
-                  <figure className="mt-4 md:px-4 md:mt-0">
+                  <figure className="mt-4 px-4 md:mt-0">
                     <blockquote className="text-left text-sm font-medium leading-8 text-gray-900 md:text-md md:leading-9">
                       <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”</p>
                     </blockquote>
