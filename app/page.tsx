@@ -257,7 +257,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="flex">
-                <span className="hidden sm:block">
+                <span className="block">
                   <button type="button" className="inline-flex items-center rounded-md bg-white mt-5 px-3 py-4 text-md md:text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
                     View All Reviews
                   </button>
