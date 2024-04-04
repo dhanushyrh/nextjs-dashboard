@@ -119,7 +119,7 @@ export default function Page() {
           <div className="flex w-full grow py-6 justify-center border-b-2">
             <div className="flex flex-col w-full grow py-4 ">
               <div className="flex flex-row w-full mb-8 text-2xl font-semibold font-mono	text-gray-800 dark:text-gray-800 ">
-                <p>Mango's Trips</p>
+                <p>Mango&apos; Trips</p>
               </div>
               <div className="flex flex-row">
                 <div className="grid grid-cols-4 gap-4">
@@ -131,7 +131,7 @@ export default function Page() {
           <div className="flex w-full grow py-6 justify-center ">
             <div className="flex flex-col w-full grow py-4 ">
               <div className="flex flex-row w-full mb-8 text-2xl font-semibold font-mono	text-gray-800 dark:text-gray-800 ">
-                <p>Mango's Reviews</p>
+                <p>Mango&apos;s Reviews</p>
               </div>
               <div className="flex flex-col md:flex-row">
               <div className="flex grow mx-auto mb-4 md:mr-6 md:mb-0 py-4 max-w-2xl lg:max-w-4xl border-2 rounded-md">
